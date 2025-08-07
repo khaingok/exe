@@ -1,9 +1,9 @@
-import TodoList from '@/components/TodoList';
+import FilterableTodoList from '@/components/FilterableTodoList';
 
 export default function Home() {
   return (
     <main>
-      <TodoList />
+      <FilterableTodoList />
     </main>
   );
 }
