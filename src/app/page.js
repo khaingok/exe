@@ -1,9 +1,9 @@
-import Timer from '@/components/Timer';
+import LoginForm from '../components/LoginForm';
 
 export default function Home() {
   return (
     <main>
-      <Timer />
+      <LoginForm />
     </main>
   );
 }
