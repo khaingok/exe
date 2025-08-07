@@ -1,9 +1,9 @@
-import Counter from '@/components/Counter';
+import ToggleVisibility from '@/components/ToggleVisibility';
 
 export default function Home() {
   return (
-    <div>
-      <Counter />
-    </div>
+    <main>
+      <ToggleVisibility />
+    </main>
   );
 }
