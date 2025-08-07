@@ -1,9 +1,9 @@
-import FilterableTodoList from '@/components/FilterableTodoList';
+import Timer from '@/components/Timer';
 
 export default function Home() {
   return (
     <main>
-      <FilterableTodoList />
+      <Timer />
     </main>
   );
 }
