@@ -1,9 +1,9 @@
-import ToggleVisibility from '@/components/ToggleVisibility';
+import TodoList from '@/components/TodoList';
 
 export default function Home() {
   return (
     <main>
-      <ToggleVisibility />
+      <TodoList />
     </main>
   );
 }
